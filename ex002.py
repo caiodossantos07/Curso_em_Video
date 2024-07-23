@@ -1,0 +1,5 @@
+nome = input('Digite o seu nome: ') 
+print('Olá ' + nome + ', seja bem-vindo!')
+print(f'Olá {nome}, seja bem vindo!')
+print('Olá {}, seja bem vindo!'.format(nome))
+print('Olá', nome,', seja bem vindo!')
